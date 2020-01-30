@@ -15,4 +15,8 @@ function submitComment() {
   comment.classList.add("comment");
   comment.appendChild(h3);
   comment.appendChild(p);
+  const commentSection = document.getElementById("comment");
+  commentSection.appendChild(comment);
+  inputField.value = null;
+  textArea.value = null;
 }
