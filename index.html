@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #btn {
+        color: blue;
+        background: magenta;
+        border: solid;
+        border-color: yellow;
+        border-width: 10px;
+        border-radius: 5px;
+        width: 130px;
+        height: 40px;
+      }
+
+      h2.a {
+        color: blueviolet;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 30px;
+        background: greenyellow;
+      }
+
+      #blue_btn {
+        background: blue;
+      }
+
+      #red_btn {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Hello</h1>
+      <p>How are you?</p>
+      <p>pretty good, thank you</p>
+      <h2 class="a">test1</h2>
+      <h2 class="a">test2</h2>
+      <button id="btn">Click me gently</button>
+    </div>
+    <div>
+      <p id="para">Some text here</p>
+      <button id="blue_btn" ,onclick="changeColor('blue');">blue</button>
+      <button id="red_btn" ,onclick="changeColor('red');">red</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
